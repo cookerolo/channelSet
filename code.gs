@@ -5,25 +5,25 @@ function campaign(text) {
       result.push("Geo JB");
       switch(text.substr(3,3).toLowerCase()) {
         case "vic":
-          result.push("Victor");
+          result.push("V");
           break;
         case "stf":
-          result.push("Stefan");
+          result.push("S");
           break;
         case "bar":
-          result.push("Barbara");
+          result.push("B");
           break;
         case "ale":
-          result.push("Alex");
+          result.push("A");
           break;
         case "rom":
-          result.push("Romina");
+          result.push("R");
           break;
         case "ann":
-          result.push("Anna");
+          result.push("An");
           break;
         case "jos":
-          result.push("Jose");
+          result.push("J");
           break;    
         default: 
           result.push("Check please");
